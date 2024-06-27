@@ -10,6 +10,7 @@ import java.nio.file.{Paths, Files}
   * 2. split the whole string,
   * 3. trim the undesired characters (',.:;'),
   * 4. count the lowercase words,
+  * 5. count the uppercase words,
   * to-do: count all the lowercase words,
  **/
 def main(): Unit = {
