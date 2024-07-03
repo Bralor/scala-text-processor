@@ -1,7 +1,8 @@
 import scala.io.Source
 import java.nio.file.{Paths, Files}
 
-@main
+object main
+
 /** The project's notes
   * ---
   *
@@ -13,7 +14,7 @@ import java.nio.file.{Paths, Files}
   * 5. count the uppercase words,
   * to-do: count all the lowercase words,
  **/
-def main(): Unit = {
+def run(): Unit = {
   val testFilePath: String = "src/main/resources/txt_sample.txt"
 
   val fileContent = readFileContent(filePath = testFilePath)
