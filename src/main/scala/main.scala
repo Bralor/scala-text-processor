@@ -12,6 +12,7 @@ object main
   * 3. trim the undesired characters (',.:;'),
   * 4. count the lowercase words,
   * 5. count the uppercase words,
+  * 6. count the numerical string values,
   * to-do: count all the lowercase words,
  **/
 def run(): Unit = {
